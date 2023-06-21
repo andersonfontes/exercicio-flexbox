@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #393434;
+    }
+
+
+header{
+    display: flex;
+    
+    justify-content: space-between;
+
+    width:100%;
+    height: 70px;
+
+    box-shadow: 0px 5px 20px black;
+    padding: 10px;    
+
+    align-items: center;
+}
+
+.logo{
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #ccc;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu li a{
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    margin-left: 10px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+}
+
+.menu li a:hover{
+    background-color: #6a6969;
+}
+
+h1{
+    color: #fff;
+    text-align: center;
+    margin: 20px;
+
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1200px;
+    gap: 10px;
+    
+}
+
+img{
+    border-radius: 10px;
+}
+
+/* melhor usar gap no container */
+/* .container div{
+    flex: 1 1 350px;
+    margin: 10px;
+} */
